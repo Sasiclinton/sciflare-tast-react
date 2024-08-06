@@ -13,6 +13,11 @@
   }
 }
 
+table {
+  width: 100%;
+  text-align: center;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -24,6 +29,15 @@
   color: white;
 }
 
+.addbutton {
+  padding: 8px;
+  background: #212529;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -32,7 +46,38 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+.welcome-user {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-user h1 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+}
+
+.welcome-user p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #555;
+}
+
+.info {
+    font-weight: bold;
+    color: #333;
 }

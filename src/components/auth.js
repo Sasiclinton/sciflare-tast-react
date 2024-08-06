@@ -9,8 +9,8 @@ const Auth = () => {
     <div style={{ textAlign: 'center', padding: '20px' }}>
       <h2>Welcome to the Org-Management App</h2>
       <div>
-        {/* <button onClick={() => setView('login')}>Login</button> */}
-        {/* <button onClick={() => setView('signup')}>Signup</button> */}
+        <button onClick={() => setView('login')}>Login</button>
+        <button onClick={() => setView('signup')}>Signup</button>
       </div>
       <div>
         {view === 'login' ? <Login /> : <Signup />}

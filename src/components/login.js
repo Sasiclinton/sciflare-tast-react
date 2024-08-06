@@ -25,7 +25,7 @@ const Login = () => {
 
     return (
         <form onSubmit={handleLogin} style={{ textAlign: 'center', padding: '20px' }}>
-            <h3>Login</h3>
+            <h3>User & Admin Login</h3>
             <input
                 type="email"
                 placeholder="Email"

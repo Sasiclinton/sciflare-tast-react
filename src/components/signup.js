@@ -6,18 +6,21 @@ const Signup = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [role, setRole] = useState('');
   const [error, setError] = useState('');
   const navigate = useNavigate();
-  
+
   const handleSignup = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post('http://localhost:5000/api/auth/signup', { name, email, password });
+      debugger
+      const res = await axios.post('http://localhost:5000/api/auth/signup', { name, email, password, role });
       localStorage.setItem('token', res.data.token);
       const user = { email: res.data.email };  // Assuming API returns this data
       console.log(user.email);
       localStorage.setItem('logedIn', true);
-      navigate('/dashboard', { state: user });
+      // navigate('/dashboard', { state: user });
+      res.data.role === 'admin' ? navigate('/dashboard', { state: user }) : navigate('/user', { state: res.data })
       alert('Signup successful');
     } catch (err) {
       setError('Error signing up');
@@ -26,7 +29,7 @@ const Signup = () => {
 
   return (
     <form onSubmit={handleSignup} style={{ textAlign: 'center', padding: '20px' }}>
-      <h3>Signup</h3>
+      <h3>Admin Signup</h3>
       <input
         type="text"
         placeholder="Name"
@@ -46,6 +49,13 @@ const Signup = () => {
         placeholder="Password"
         value={password}
         onChange={(e) => setPassword(e.target.value)}
+        required
+      /><br />
+      <input
+        type="text"
+        placeholder="Role admin only"
+        value={role}
+        onChange={(e) => setRole(e.target.value)}
         required
       /><br />
       <button type="submit">Signup</button>

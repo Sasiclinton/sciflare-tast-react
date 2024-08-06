@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+![image](https://github.com/user-attachments/assets/451abf96-5dde-4a75-8fb0-7f6b8a525da7)# Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -68,3 +68,43 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+#Admin and userlogin screen
+![image](https://github.com/user-attachments/assets/b698a9bc-392e-4966-9314-235d6af8f5b3)
+
+
+#Admin signup screen only for admin use
+Admin Email:- sci@gmail.com
+Password:- 12345
+![image](https://github.com/user-attachments/assets/7ef986bd-5757-4cd5-8eaa-86738d92e826)
+
+#Admin Dashboard page
+![image](https://github.com/user-attachments/assets/fbbb3132-c494-4438-8e6a-12456e972d59)
+
+#Add user page creation
+![image](https://github.com/user-attachments/assets/8944b1ad-75af-49f2-9a35-b94b923463c6)
+
+#Edit user screen 
+![image](https://github.com/user-attachments/assets/413f945a-fd57-4539-8750-9efe03b53b5a)
+
+#Delete user
+![image](https://github.com/user-attachments/assets/6c459f1b-a285-485e-98a6-da19dbc94f55)
+
+#Organisation list screen
+![image](https://github.com/user-attachments/assets/8ea64933-212a-4b0b-9101-2c54815ae04e)
+
+#Organisation edit  screen 
+![image](https://github.com/user-attachments/assets/67de5951-ba46-4561-a336-bbd8909e449d)
+
+#Organisation delete
+![image](https://github.com/user-attachments/assets/2ae9c166-ac75-4d80-a085-e58e973a5e50)
+
+#User home screen
+user Email:- sasi2@gmail.com
+Password:- 12345
+![image](https://github.com/user-attachments/assets/6b1e2544-8add-47d9-b950-0c012b0aea87)
+
+
+
+
+
